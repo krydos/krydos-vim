@@ -1,0 +1,59 @@
+" set color scheme
+colorscheme molokai
+
+" remove toolbars from gvim
+set guioptions-=m  "remove menu bar
+set guioptions-=T  "remove toolbar
+set guioptions-=r  "remove right-hand scroll bar
+set go-=L
+
+" set font
+if has("gui_running")
+    if has("gui_gtk2")
+        set guifont=Inconsolata\ 12
+    elseif has("gui_macvim")
+        set guifont=Menlo\ Regular:h14
+    elseif has("gui_win32")
+        set guifont=Inconsolata:h11:cANSI
+    endif
+endif
+
+" set syntax highlighting
+syntax on
+
+" set default encoding
+set encoding=utf-8
+
+" enable backspace for insert mode
+set backspace=indent,eol,start
+
+" map ctrl-movemnet keys to window switching
+map <C-k> <C-w><Up>
+map <C-j> <C-w><Down>
+map <C-l> <C-w><Right>
+map <C-h> <C-w><Left>
+
+" a little fix for airline plugin
+set laststatus=2
+
+
+" vundle setup
+set nocompatible
+filetype off
+
+set rtp+=~/vimfiles/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+Bundle 'scrooloose/nerdtree'
+Bundle 'jeetsukumaran/vim-buffergator'
+Bundle 'bling/vim-airline'
+
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
+
+Bundle 'taglist.vim'
+
+filetype plugin indent on
+" and of vundle
