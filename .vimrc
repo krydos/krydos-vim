@@ -14,8 +14,20 @@ if has ("gui_running")
     set lines=999 columns=999
 endif
 
+" set font
+if has("gui_running")
+    if has("gui_gtk2")
+        set guifont=Inconsolata\ 12
+    elseif has("gui_macvim")
+        set guifont=Menlo\ Regular:h14
+    elseif has("gui_win32")
+        set guifont=Inconsolata:h11:cANSI
+    endif
+endif
+
 filetype on
 
+" default path
 cd E:\work
 
 let Tlist_Use_Right_Window=1
