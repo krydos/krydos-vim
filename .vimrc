@@ -1,4 +1,4 @@
-source C:\Users\Fury\vimfiles\vimrc
+source ~/.vim/vimrc
 "colorscheme vividchalk
 set nu
 set sw=4
@@ -28,7 +28,6 @@ endif
 filetype on
 
 " default path
-cd E:\work
 
 let Tlist_Use_Right_Window=1
 
