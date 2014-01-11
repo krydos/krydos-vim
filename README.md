@@ -1,6 +1,6 @@
 krydos-vim
 =========
-This is  my personal VIM config. 
+This is  my personal VIM configuration. 
 
  - **.vimrc** - is config with my personal preferences like (nu, expandtab, tabsize etc...)
  - **.vim** - is main folder that contains colorschemes and other stuff like syntax and snippets. Also this folder contain **Vundle** and vimrc with settings for plugins.
