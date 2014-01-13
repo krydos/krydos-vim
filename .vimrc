@@ -1,12 +1,19 @@
 source ~/.vim/vimrc
-"colorscheme vividchalk
+
+" set color scheme
+colorscheme molokai
+
+" show the line number
 set nu
+" set the tab size
 set sw=4
 set sts=4
-set expandtab
 set tabstop=4
-set guioptions-=m
+" change all tabs to spaces
+set expandtab
+" set nowrap to lines
 set nowrap
+" remove backup files (which started with ~)
 set noswapfile
 
 " maximize gvim window
@@ -27,10 +34,10 @@ endif
 
 filetype on
 
-" default path
-
+" move Taglist plugin to right side
 let Tlist_Use_Right_Window=1
 
+" set the shortkeys
 map <F4> :BuffergatorToggle<CR>
 map <F5> :NERDTreeToggle<CR>
 map <F6> :TlistToggle<CR>

@@ -1,6 +1,3 @@
-" set color scheme
-colorscheme molokai
-
 " remove toolbars from gvim
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
