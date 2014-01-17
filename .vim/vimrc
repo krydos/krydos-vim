@@ -4,6 +4,11 @@ set guioptions-=T  "remove toolbar
 set guioptions-=r  "remove right-hand scroll bar
 set go-=L
 
+" enable "full" colors if terminal can display it
+if $COLORTERM == 'gnome-terminal'
+    set t_Co=256
+endif
+
 
 " set syntax highlighting
 syntax on
