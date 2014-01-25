@@ -6,5 +6,5 @@ This is  my personal VIM configuration.
  - **.vim** - is main folder that contains colorschemes and other stuff like syntax and snippets. Also this folder contain **Vundle** and vimrc with settings for plugins.
 
 
- For installation in **Windows** you should rename your .vimrc to **_vimrc** and your .vim folder to **vimfiles**
+ For installation in **Windows** you have to rename your .vimrc to **_vimrc** and your .vim folder to **vimfiles**
 
