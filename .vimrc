@@ -41,3 +41,4 @@ let Tlist_Use_Right_Window=1
 map <F4> :BuffergatorToggle<CR>
 map <F5> :NERDTreeToggle<CR>
 map <F6> :TlistToggle<CR>
+map <leader>] :FufFile **/<CR>

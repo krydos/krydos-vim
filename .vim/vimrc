@@ -41,12 +41,16 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'jeetsukumaran/vim-buffergator'
 Bundle 'bling/vim-airline'
 Bundle 'ervandew/supertab'
+Bundle 'tpope/vim-fugitive'
 
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
 
 Bundle 'taglist.vim'
+Bundle 'L9'
+Bundle 'FuzzyFinder'
+
 
 filetype plugin indent on
 " and of vundle
