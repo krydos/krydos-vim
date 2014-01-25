@@ -44,6 +44,8 @@ filetype on
 
 " move Taglist plugin to right side
 let Tlist_Use_Right_Window=1
+" auto cd with nerdtree
+let NERDTreeChDirMode=2
 
 " set the shortkeys
 map <F4> :BuffergatorToggle<CR>
