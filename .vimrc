@@ -16,6 +16,9 @@ set nowrap
 " remove backup files (which started with ~)
 set noswapfile
 
+" show the first match for the pattern, while you are still typing it.
+set incsearch
+
 " maximize gvim window
 if has ("gui_running")
     set lines=999 columns=999
