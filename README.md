@@ -8,3 +8,7 @@ This is  my personal VIM configuration.
 
  For installation in **Windows** you have to rename your .vimrc to **_vimrc** and your .vim folder to **vimfiles**
 
+Don't forget install the **Vundle** and after this call the BundleInstall command.
+
+
+
