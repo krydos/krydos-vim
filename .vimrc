@@ -47,3 +47,5 @@ map <F4> :BuffergatorToggle<CR>
 map <F5> :NERDTreeToggle<CR>
 map <F6> :TlistToggle<CR>
 map <leader>] :FufFile **/<CR>
+
+command Find :FufFile **/
