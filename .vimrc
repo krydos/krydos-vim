@@ -1,7 +1,7 @@
 source ~/.vim/vimrc
 
 " set color scheme
-colorscheme molokai
+colorscheme hybrid
 
 " show the line number
 set nu
