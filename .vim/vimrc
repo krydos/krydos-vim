@@ -9,7 +9,6 @@ if $COLORTERM == 'gnome-terminal'
     set t_Co=256
 endif
 
-
 " set syntax highlighting
 syntax on
 
@@ -28,7 +27,6 @@ map <C-h> <C-w><Left>
 " a little fix for airline plugin
 set laststatus=2
 
-
 " vundle setup
 set nocompatible
 filetype off
@@ -42,6 +40,7 @@ Bundle 'jeetsukumaran/vim-buffergator'
 Bundle 'bling/vim-airline'
 Bundle 'ervandew/supertab'
 Bundle 'tpope/vim-fugitive'
+Bundle 'wting/rust.vim'
 
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
@@ -50,7 +49,6 @@ Bundle "garbas/vim-snipmate"
 Bundle 'taglist.vim'
 Bundle 'L9'
 Bundle 'FuzzyFinder'
-
 
 filetype plugin indent on
 " and of vundle

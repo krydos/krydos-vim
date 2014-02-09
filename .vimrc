@@ -46,6 +46,6 @@ let NERDTreeChDirMode=2
 map <F4> :BuffergatorToggle<CR>
 map <F5> :NERDTreeToggle<CR>
 map <F6> :TlistToggle<CR>
-map <leader>] :FufFile **/<CR>
 
+" create a command for FufFile plugin. Search for files in current directory
 command Find :FufFile **/
