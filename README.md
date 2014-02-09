@@ -10,5 +10,18 @@ This is  my personal VIM configuration.
 
 Don't forget install the **Vundle** and after this call the BundleInstall command.
 
+List of plugins:
+ - **nerdtree**
+ - **buffergator**
+ - **airline**
+ - **supertab**
+ - **fugitive**
+ - **rust.vim**
+ - **snipmate**
+ - **taglist**
+ - **L9**
+ - **FuzzyFinder**
+
+
 
 
