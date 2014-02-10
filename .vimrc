@@ -47,5 +47,7 @@ map <F4> :BuffergatorToggle<CR>
 map <F5> :NERDTreeToggle<CR>
 map <F6> :TlistToggle<CR>
 
+inoremap jk <ESC>
+
 " create a command for FufFile plugin. Search for files in current directory
 command Find :FufFile **/
