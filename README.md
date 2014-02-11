@@ -23,9 +23,9 @@ List of plugins:
  - **FuzzyFinder**
 
 Shortcuts and commands:
- - <F4> - call the buffergator at the left of the window
- - <F5> - call the nerdtree at the left of the window
- - <F6> - call the taglist at the right of the window
+ - F4 - call the buffergator at the left of the window
+ - F5 - call the nerdtree at the left of the window
+ - F6 - call the taglist at the right of the window
  - :Find - command calling FuzzyFinder plugin.
 
 
