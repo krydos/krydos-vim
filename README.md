@@ -26,10 +26,14 @@ List of plugins
  - **git-vim** - awesome GIT plugin for a VIM
 
 Shortcuts and commands:
+<Leader> key was changed to the "," (comma)
+
  - F4 - call the buffergator at the left of the window
  - F5 - call the nerdtree at the left of the window
  - F6 - call the taglist at the right of the window
  - :Find - command calling FuzzyFinder plugin.
+ - <Leader>p - paste from system bufer
+ - <Leader>y - copy to system bufer
 
 Theme pack included. (**Hybrid** default)
 

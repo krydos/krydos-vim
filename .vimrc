@@ -51,11 +51,12 @@ map <F6> :TlistToggle<CR>
 inoremap jk <ESC>
 
 " remap leader key
-let mapleader = ','
+let mapleader = ","
 
 " so many time I need to paste from system bufer and I don't want to use "+p .
 " Just remap it
-nnoremap <Leader>p "+p
+nnoremap <Leader>p "*p
+nnoremap <Leader>y "*y
 
 " create a command for FufFile plugin. Search for files in current directory
 command Find :FufFile **/
