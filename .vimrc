@@ -47,7 +47,15 @@ map <F4> :BuffergatorToggle<CR>
 map <F5> :NERDTreeToggle<CR>
 map <F6> :TlistToggle<CR>
 
+" remap ESC to the jk. I found this very useful
 inoremap jk <ESC>
+
+" remap leader key
+let mapleader = ','
+
+" so many time I need to paste from system bufer and I don't want to use "+p .
+" Just remap it
+nnoremap <Leader>p "+p
 
 " create a command for FufFile plugin. Search for files in current directory
 command Find :FufFile **/
