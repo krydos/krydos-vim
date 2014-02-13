@@ -23,6 +23,7 @@ List of plugins
  - **L9**
  - **FuzzyFinder** - for search file in current directory
  - **auto-pairs** - insert or delete brackets, parens, quotes in pair (Like in IDE)
+ - **git-vim** - awesome GIT plugin for a VIM
 
 Shortcuts and commands:
  - F4 - call the buffergator at the left of the window
