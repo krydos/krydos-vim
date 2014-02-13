@@ -13,16 +13,16 @@ Don't forget install the **Vundle** and after this call the BundleInstall comman
 List of plugins
 ---------------
 
- - **nerdtree**
- - **buffergator**
- - **airline**
- - **supertab**
- - **fugitive**
- - **rust.vim**
- - **snipmate**
- - **taglist**
+ - **nerdtree** - file list like in IDE from left side of the window (you can choose the side of course)
+ - **buffergator** - list of all open buffers
+ - **airline** - beautiful status line
+ - **supertab** - TAB instaid CTRL+P & CTRL+N
+ - **rust.vim** - plugin for Rust language from Mozilla
+ - **snipmate** - autocompletion for your code
+ - **taglist** - show function, variable, class list
  - **L9**
- - **FuzzyFinder**
+ - **FuzzyFinder** - for search file in current directory
+ - **auto-pairs** - insert or delete brackets, parens, quotes in pair (Like in IDE)
 
 Shortcuts and commands:
  - F4 - call the buffergator at the left of the window
