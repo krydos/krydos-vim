@@ -41,6 +41,7 @@ Bundle 'bling/vim-airline'
 Bundle 'ervandew/supertab'
 Bundle 'tpope/vim-fugitive'
 Bundle 'wting/rust.vim'
+Bundle 'motemen/git-vim'
 
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
