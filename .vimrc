@@ -48,7 +48,7 @@ map <F5> :NERDTreeToggle<CR>
 map <F6> :TlistToggle<CR>
 
 " remap ESC to the jk. I found this very useful
-inoremap jk <ESC>
+inoremap kj <ESC>
 
 " remap leader key
 let mapleader = ","
