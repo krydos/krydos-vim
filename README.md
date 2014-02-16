@@ -26,7 +26,8 @@ List of plugins
  - **git-vim** - awesome GIT plugin for a VIM
 
 Shortcuts and commands:
-<Leader> key was changed to the "," (comma)
+----------------------
+\<Leader> key was changed to the "," (comma)
 
  - F4 - call the buffergator at the left of the window
  - F5 - call the nerdtree at the left of the window
