@@ -32,7 +32,7 @@ Shortcuts and commands:
  - **:Find** - command calling FuzzyFinder plugin.
  - **\<Leader>p** - paste from system bufer
  - **\<Leader>y** - copy to system bufer
- - **kj** - you can use instaid <ESC> for return to normal mode
+ - **kj** - you can use instead <ESC> for return to normal mode
 
 Theme pack included. (**Hybrid** default)
 
