@@ -35,6 +35,7 @@ Shortcuts and commands:
  - **kj** - you can use it instead \<ESC> for return to normal mode
 
 Theme pack included. (**Hybrid** default)
+AutoSave function included
 
 Screenshots
 -----------
