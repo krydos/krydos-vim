@@ -36,8 +36,6 @@ Shortcuts and commands:
 
 Theme pack included. (**Hybrid** default)
 
-AutoSave function included
-
 Screenshots
 -----------
 
