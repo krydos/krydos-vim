@@ -60,6 +60,3 @@ nnoremap <Leader>y "*y
 
 " create a command for FufFile plugin. Search for files in current directory
 command Find :FufFile **/
-
-" auto save file when Insert mode was leave 
-autocmd InsertLeave * if expand('%') != '' | update | endif
