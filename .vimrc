@@ -60,3 +60,6 @@ nnoremap <Leader>y "*y
 
 " create a command for FufFile plugin. Search for files in current directory
 command Find :FufFile **/
+
+" visual select for all block between braces ([{}])
+noremap % v%
