@@ -42,6 +42,7 @@ Bundle 'ervandew/supertab'
 Bundle 'wting/rust.vim'
 Bundle 'motemen/git-vim'
 Bundle "jiangmiao/auto-pairs"
+Bundle "tsaleh/vim-matchit"
 
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
