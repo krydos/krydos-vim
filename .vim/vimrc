@@ -43,6 +43,7 @@ Bundle 'wting/rust.vim'
 Bundle 'motemen/git-vim'
 Bundle "jiangmiao/auto-pairs"
 Bundle "tsaleh/vim-matchit"
+Bundle 'tpope/vim-surround'
 
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
