@@ -21,6 +21,9 @@ List of plugins
  - **FuzzyFinder** - for search file in current directory
  - **auto-pairs** - insert or delete brackets, parens, quotes in pair (Like in IDE)
  - **git-vim** - awesome GIT plugin for a VIM
+ - **vim-matchit** - configure % to match more than just
+ - **vim-surround** - surroundings plugin
+ - **syntastic** - syntax checking plugin
 
 Shortcuts and commands:
 ----------------------
