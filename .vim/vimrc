@@ -45,6 +45,7 @@ Bundle "jiangmiao/auto-pairs"
 Bundle "tsaleh/vim-matchit"
 Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/syntastic'
+Bundle 'jelera/vim-javascript-syntax'
 
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
