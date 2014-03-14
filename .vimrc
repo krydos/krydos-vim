@@ -1,5 +1,8 @@
 source ~/.vim/vimrc
 
+" remap leader key
+let mapleader = ","
+
 " set color scheme
 colorscheme hybrid
 
@@ -43,23 +46,12 @@ let Tlist_Use_Right_Window=1
 let NERDTreeChDirMode=2
 
 " set the shortkeys
-map <F4> :BuffergatorToggle<CR>
 map <F5> :NERDTreeToggle<CR>
 map <F6> :TlistToggle<CR>
+map <Leader>t :MBEToggle<cr>
 
 " remap ESC to the jk. I found this very useful
 inoremap kj <ESC>
 
-" remap leader key
-let mapleader = ","
-
-" so many time I need to paste from system bufer and I don't want to use "+p .
-" Just remap it
-nnoremap <Leader>p "*p
-nnoremap <Leader>y "*y
-
 " create a command for FufFile plugin. Search for files in current directory
 command Find :FufFile **/
-
-" visual select for all block between braces ([{}])
-noremap % v%

@@ -36,7 +36,6 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
-Bundle 'jeetsukumaran/vim-buffergator'
 Bundle 'bling/vim-airline'
 Bundle 'ervandew/supertab'
 Bundle 'wting/rust.vim'
@@ -46,6 +45,7 @@ Bundle "tsaleh/vim-matchit"
 Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/syntastic'
 Bundle 'jelera/vim-javascript-syntax'
+Bundle 'fholgado/minibufexpl.vim'
 
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
