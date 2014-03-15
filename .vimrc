@@ -55,6 +55,3 @@ inoremap kj <ESC>
 
 " create a command for FufFile plugin. Search for files in current directory
 command Find :FufFile **/
-
-" remove conflict between fuzzy finder and minibuferexp plugins
-:let g:fuf_keyOpen
