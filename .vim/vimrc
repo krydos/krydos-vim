@@ -46,6 +46,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/syntastic'
 Bundle 'jelera/vim-javascript-syntax'
 Bundle 'Lokaltog/vim-easymotion'
+Bundle 'mustache/vim-mustache-handlebars'
 
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
