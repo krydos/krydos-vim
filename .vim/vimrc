@@ -39,7 +39,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'bling/vim-airline'
 Bundle 'ervandew/supertab'
 Bundle 'wting/rust.vim'
-Bundle 'motemen/git-vim'
+Bundle 'tpope/vim-fugitive'
 Bundle "jiangmiao/auto-pairs"
 Bundle "tsaleh/vim-matchit"
 Bundle 'tpope/vim-surround'
