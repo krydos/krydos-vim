@@ -55,3 +55,6 @@ inoremap kj <ESC>
 
 " create a command for FufFile plugin. Search for files in current directory
 command Find :FufFile **/
+
+" show all buffers and change it by entering buffer number
+noremap <leader>b :ls<cr>:b<space>
