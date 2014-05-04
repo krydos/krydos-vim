@@ -11,7 +11,6 @@ List of plugins
 ---------------
 
  - **nerdtree** - file list like in IDE from left side of the window (you can choose the side of course)
- - **buffergator** - list of all open buffers
  - **airline** - beautiful status line
  - **supertab** - TAB instaid CTRL+P & CTRL+N
  - **rust.vim** - plugin for Rust language from Mozilla
@@ -20,10 +19,12 @@ List of plugins
  - **L9**
  - **FuzzyFinder** - for search file in current directory
  - **auto-pairs** - insert or delete brackets, parens, quotes in pair (Like in IDE)
- - **git-vim** - awesome GIT plugin for a VIM
+ - **fugitive** - awesome GIT plugin for a VIM
  - **vim-matchit** - configure % to match more than just [{}]
  - **vim-surround** - surroundings plugin
  - **syntastic** - syntax checking plugin
+ - **vim-javascript-syntax** - a better syntax highlighting for the javascript
+ - **easymotion** - easy motion in your file
 
 Shortcuts and commands:
 ----------------------
