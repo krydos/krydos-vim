@@ -48,7 +48,6 @@ let NERDTreeChDirMode=2
 " set the shortkeys
 map <F5> :NERDTreeToggle<CR>
 map <F6> :TlistToggle<CR>
-map <Leader>t :MBEToggle<cr>
 
 " remap ESC to the jk. I found this very useful
 inoremap kj <ESC>
