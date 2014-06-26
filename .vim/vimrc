@@ -48,6 +48,7 @@ Bundle 'jelera/vim-javascript-syntax'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'wakatime/vim-wakatime'
+Bundle 'mileszs/ack.vim'
 
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
@@ -56,6 +57,8 @@ Bundle "garbas/vim-snipmate"
 Bundle 'taglist.vim'
 Bundle 'L9'
 Bundle 'FuzzyFinder'
+
+
 
 filetype plugin indent on
 " and of vundle
