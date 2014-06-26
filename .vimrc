@@ -4,7 +4,7 @@ source ~/.vim/vimrc
 let mapleader = ","
 
 " set color scheme
-colorscheme hybrid
+colorscheme molokai
 
 " show the line number
 set nu
@@ -57,3 +57,9 @@ command Find :FufFile **/
 
 " show all buffers and change it by entering buffer number
 noremap <leader>b :ls<cr>:b<space>
+
+let &t_Co=256
+
+" map for the ack.vim plugin
+" --------------------------
+noremap <leader>a :Ack 
