@@ -49,6 +49,7 @@ Bundle 'Lokaltog/vim-easymotion'
 Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'wakatime/vim-wakatime'
 Bundle 'mileszs/ack.vim'
+Bundle 'vim-scripts/bufexplorer.zip'
 
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
@@ -57,6 +58,9 @@ Bundle "garbas/vim-snipmate"
 Bundle 'taglist.vim'
 Bundle 'L9'
 Bundle 'FuzzyFinder'
+
+Bundle 'shougo/vimshell.vim'
+Bundle 'shougo/vimproc'
 
 
 

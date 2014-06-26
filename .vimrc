@@ -63,3 +63,7 @@ let &t_Co=256
 " map for the ack.vim plugin
 " --------------------------
 noremap <leader>a :Ack 
+
+" map for BufExplorer
+" -------------------
+noremap <leader>e :BufExplorer<cr>
