@@ -67,3 +67,8 @@ noremap <leader>a :Ack
 " map for BufExplorer
 " -------------------
 noremap <leader>e :BufExplorer<cr>
+
+" map for fugitive
+" ----------------
+noremap ,gs :Gstatus<cr>
+noremap ,gc :Gcommit<cr>
