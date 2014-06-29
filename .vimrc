@@ -72,3 +72,7 @@ noremap <leader>e :BufExplorer<cr>
 " ----------------
 noremap ,gs :Gstatus<cr>
 noremap ,gc :Gcommit<cr>
+
+" map for VimShell
+" ----------------
+noremap ,s :VimShell<cr>
