@@ -92,9 +92,8 @@ Bundle 'FuzzyFinder'
 
 " shell in the vim
 Bundle 'shougo/vimshell.vim'
-
-" requirements for vimshell
 Bundle 'shougo/vimproc'
+Bundle 'vim-scripts/VimClojure'
 
 
 
