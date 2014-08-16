@@ -40,14 +40,15 @@ endif
 
 filetype on
 
-" move Taglist plugin to right side
-let Tlist_Use_Right_Window=1
 " auto cd with nerdtree
 let NERDTreeChDirMode=2
 
+let g:tagbar_ctags_bin='/usr/local/bin/ctags'  
+let g:tagbar_width=26                          
+
 " set the shortkeys
 map <F5> :NERDTreeToggle<CR>
-map <F6> :TlistToggle<CR>
+map <F6> :TagbarToggle<CR>
 
 " remap ESC to the jk. I found this very useful
 inoremap kj <ESC>
