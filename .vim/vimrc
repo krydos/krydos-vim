@@ -94,6 +94,7 @@ Bundle 'FuzzyFinder'
 Bundle 'shougo/vimshell.vim'
 Bundle 'shougo/vimproc'
 Bundle 'vim-scripts/VimClojure'
+Bundle 'briancollins/vim-jst'
 
 
 
