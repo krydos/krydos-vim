@@ -73,9 +73,6 @@ Bundle 'Lokaltog/vim-easymotion'
 " good syntax for handlebars
 Bundle 'mustache/vim-mustache-handlebars'
 
-" wakatime time management
-Bundle 'wakatime/vim-wakatime'
-
 " ack in the vim
 Bundle 'mileszs/ack.vim'
 
